@@ -6,8 +6,7 @@
 Inspiration and Tutorial from [Alex the Analyst](https://github.com/AlexTheAnalyst/PortfolioProjects)
 
 ## Movie Industry Analysis 🎬
-Analysis of movie industry revenue over recent decades.
-- Dataset from: [Kaggle](https://www.kaggle.com/datasets/danielgrijalvas/movies)
+Analysis of movie industry revenue over recent decades. Dataset from: [Kaggle](https://www.kaggle.com/datasets/danielgrijalvas/movies)
 
 ### Scatter Plot of Budget vs. Gross Earnings
 ![Budget vs Gross Earnings Scatter Plot](demo/m1.png)  
