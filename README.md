@@ -18,7 +18,7 @@ The scatter plot shows a positive relationship between the budget of a movie and
 * As the budget increases, there is a general trend towards higher gross earnings, indicated by the upward slope of the regression line.
 * The wide confidence interval suggests that there is a lot of variability that isn't explained by the budget alone.
 
-### Correlation Matrix for Numeric Features
+## Correlation Matrix for Numeric Features
 <img src="demo/m2.png" width="400" height="350" />
 The correlation matrix gives us the following insights:
 * The strongest positive correlation is between the budget and gross earnings (0.69), which aligns with the trend seen in the scatter plot.
