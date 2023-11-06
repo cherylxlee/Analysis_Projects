@@ -7,9 +7,7 @@ Inspiration and Tutorial from [Alex the Analyst](https://github.com/AlexTheAnaly
 
 ## Movie Industry Analysis 🎬
 Analysis of movie industry revenue over recent decades.
-
-## Sources
-[Kaggle Dataset](https://www.kaggle.com/datasets/danielgrijalvas/movies)
+- Dataset from: [Kaggle](https://www.kaggle.com/datasets/danielgrijalvas/movies)
 
 ### Scatter Plot of Budget vs. Gross Earnings
 ![Budget vs Gross Earnings Scatter Plot](demo/m1.png)  
@@ -26,18 +24,18 @@ Insights from the correlation matrix:
 - Score has a weaker positive correlation with gross earnings (0.17), suggesting that higher ratings do not necessarily predict higher earnings.
 
 ### Budget vs. Gross Earnings Scatter Plot
-<img src="demo/m3.png" width="400" height="350" />
-* There seems to be a positive trend indicating that films with higher budgets often have higher gross earnings.
-* A cluster of data points can be seen toward the lower left, which suggests that a large number of films have both low budgets and low earnings.
-* There are a few films with high gross earnings that do not necessarily have a high budget, indicating that some films can be highly profitable without massive investments.
-* Several outliers can be observed where films have a high budget but don’t correspondingly have high gross earnings, indicating a potential lack of profitability for these cases.
+![Budget vs Gross Earnings Scatter Plot](demo/m3.png)  
+Observations from the scatter plot:
+- Films with higher budgets often show a trend of higher gross earnings.
+- A dense cluster of data points towards the bottom left signifies many films with low budgets and earnings.
+- Some films with high earnings don't necessarily have large budgets, implying high profitability is possible without significant investment.
+- Outliers are present where films with high budgets don't have high gross earnings, which may point to financial underperformance.
 
 ### Correlation Matrix for Movies
-<img src="demo/m4.png" width="400" height="350" />
-Analyzing the correlation matrix:
-* The correlation between budget and gross earnings is 0.74, reinforcing the idea seen in the scatter plot that a higher budget is moderately strongly correlated with higher gross earnings.
-* There is a significant positive correlation (0.63) between the number of votes a movie receives (which can be an indicator of popularity or viewership) and its gross earnings.
-* The score (perhaps a measure of critical acclaim or audience rating) has a positive correlation (0.19) with gross earnings but is not as strong as the budget or votes, indicating that while quality or reception is important, it may not be as strong a predictor of financial success as the other two factors.
-* There is a notable correlation between runtime and gross earnings (0.25), suggesting that longer movies may have a tendency to earn more, perhaps because they are often major productions or have more content for viewers.
-* The variable Year (which seems to be at the bottom of the matrix), presumably indicating the year of release, has no color coding associated with it, suggesting either it is not properly correlated with the other variables, or there might be an error in how the data is presented in this matrix.
-
+![Correlation Matrix for Movies](demo/m4.png)  
+Key points from the correlation matrix:
+- A 0.74 correlation between budget and gross earnings suggests a moderately strong positive relationship.
+- The number of votes a movie receives has a significant positive correlation (0.63) with its gross earnings, indicating that more popular movies tend to be higher earners.
+- The score has a positive correlation (0.19) with gross earnings, but it is not as predictive of success as budget or votes.
+- Runtime shows a notable correlation (0.25) with earnings, hinting that longer movies might earn more, potentially due to being major productions.
+- The 'Year' variable does not have a clear correlation, which could imply a data presentation issue or lack of significant correlation.
