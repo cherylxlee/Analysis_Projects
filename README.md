@@ -12,8 +12,7 @@ Analysis of movie industry revenue over recent decades.
 [Kaggle Dataset](https://www.kaggle.com/datasets/danielgrijalvas/movies)
 
 ### Scatter Plot of Budget vs. Gross Earnings
-<img src="demo/m1.PNG" width="400" height="350" />
-The scatter plot shows a positive relationship between the budget of a movie and its gross earnings. Key observations:
+<img src="demo/m1.PNG" width="400" height="350" /> The scatter plot shows a positive relationship between the budget of a movie and its gross earnings. Key observations:
 * There is a concentration of points towards the lower left corner, indicating that many movies have lower budgets and lower gross earnings.
 * As the budget increases, there is a general trend towards higher gross earnings, indicated by the upward slope of the regression line.
 * The wide confidence interval suggests that there is a lot of variability that isn't explained by the budget alone.
