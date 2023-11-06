@@ -12,18 +12,18 @@ Analysis of movie industry revenue over recent decades.
 [Kaggle Dataset](https://www.kaggle.com/datasets/danielgrijalvas/movies)
 
 ### Scatter Plot of Budget vs. Gross Earnings
-<img src="demo/m1.png" width="400" height="350" /> 
-The scatter plot shows a positive relationship between the budget of a movie and its gross earnings. Key observations:
-* There is a concentration of points towards the lower left corner, indicating that many movies have lower budgets and lower gross earnings.
-* As the budget increases, there is a general trend towards higher gross earnings, indicated by the upward slope of the regression line.
-* The wide confidence interval suggests that there is a lot of variability that isn't explained by the budget alone.
+![Budget vs Gross Earnings Scatter Plot](demo/m1.png)  
+Key observations from the scatter plot:
+- A concentration of points towards the lower left corner indicates many movies have lower budgets and gross earnings.
+- An upward trend suggests a positive relationship between the budget and gross earnings.
+- A wide confidence interval around the regression line points to high variability beyond budget considerations.
 
-## Correlation Matrix for Numeric Features
-<img src="demo/m2.png" width="400" height="350" />
-The correlation matrix gives us the following insights:
-* The strongest positive correlation is between the budget and gross earnings (0.69), which aligns with the trend seen in the scatter plot.
-* Votes have a moderately strong positive correlation with gross earnings (0.57), suggesting that more popular or widely rated movies tend to earn more.
-* Score (which could represent a rating or critical acclaim) has a modest positive correlation with gross earnings (0.17).
+### Correlation Matrix for Numeric Features
+![Correlation Matrix](demo/m2.png)  
+Insights from the correlation matrix:
+- Budget and gross earnings share a strong positive correlation (0.69).
+- Votes and gross earnings are moderately correlated (0.57), implying popular movies tend to earn more.
+- Score has a weaker positive correlation with gross earnings (0.17), suggesting that higher ratings do not necessarily predict higher earnings.
 
 ### Budget vs. Gross Earnings Scatter Plot
 <img src="demo/m3.png" width="400" height="350" />
