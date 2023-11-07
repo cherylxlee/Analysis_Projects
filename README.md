@@ -6,7 +6,7 @@
 Inspiration and Tutorial from [Alex the Analyst](https://github.com/AlexTheAnalyst/PortfolioProjects)
 
 ## Crypto API Automation Analysis 📈
-This program features fetching and analyzing cryptocurrency data from the CoinMarketCap API. It is designed to be run periodically to collect the latest cryptocurrency listings and analyze their price trends over time.
+Features fetching and analyzing cryptocurrency data from the CoinMarketCap API. It is designed to be run periodically to collect the latest cryptocurrency listings and analyze their price trends over time.
 
 ### Key Features:
 - API Interaction: It uses the requests library to interact with the CoinMarketCap Pro API, handling potential connection errors gracefully.
