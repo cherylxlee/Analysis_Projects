@@ -64,12 +64,12 @@ Analysis of a dataset containing movie industry data. By leveraging powerful lib
 - Outlier Detection: It includes functionality to detect outliers in the 'gross' revenue of the movies, which can be crucial for accurate statistical analysis.
 
 ### Steps to Run the Project
-1. Setup Environment: Ensure that Python is installed on your system and that you have installed the required packages (pandas, numpy, seaborn, and matplotlib).
-2. Load Data: Place the movies.csv file in a known directory and adjust the path in the pd.read_csv() function to match where you stored the file.
+1. Setup Environment: Ensure that Python is installed on your system and that you have installed the required packages (`pandas`, `numpy`, `seaborn`, and `matplotlib`).
+2. Load Data: Place the `movies.csv` file in a known directory and adjust the path in the `pd.read_csv()` function to match where you stored the file.
 3. Explore Data: Execute the script to load and explore the dataset using the commands provided.
 4. Data Cleaning: The script will loop through each column to check for missing values and print out the percentage of missing data for each attribute.
-5. Analyze Data Types: Use print(df.dtypes) to understand the types of data you are dealing with.
-6. Visualize Data: Use Matplotlib to create a boxplot, which helps in visualizing outliers in the gross revenue data.
+5. Analyze Data Types: Use `print(df.dtypes)` to understand the types of data you are dealing with.
+6. Visualize Data: Use `matplotlib` to create a boxplot, which helps in visualizing outliers in the gross revenue data.
 
 ### Enhancements
 - Handling Outliers: Implement methods to handle outliers effectively, either by removing them or by using robust statistical methods.
