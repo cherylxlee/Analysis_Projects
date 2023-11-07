@@ -7,10 +7,10 @@
 ![Matplotlib](https://img.shields.io/badge/-Matplotlib-black?style=flat&logo=matplotlib)
 ![Seaborn](https://img.shields.io/badge/-Seaborn-brightgreen?style=flat)
 
-## Sources
+# Sources
 Inspiration and Tutorial from [Alex the Analyst](https://github.com/AlexTheAnalyst/PortfolioProjects)
 
-## Crypto API Automation Analysis 📈
+# Crypto API Automation Analysis 📈
 Features fetching and analyzing cryptocurrency data from the CoinMarketCap API. It is designed to be run periodically to collect the latest cryptocurrency listings and analyze their price trends over time.
 
 ### Key Features
@@ -52,8 +52,7 @@ This interactive chart offers a dynamic comparison between the actual and predic
 #### Usage:
 To interactively evaluate and compare the prediction model's performance across various cryptocurrencies, refining the model's accuracy and making bespoke predictions for the chosen digital asset.
 
-
-## Movie Industry Analysis 🎬
+# Movie Industry Analysis 🎬
 Analysis of a dataset containing movie industry data. By leveraging powerful libraries like Pandas, NumPy, Seaborn, and Matplotlib, you can explore, visualize, and gain insights into movie trends. Dataset from [Kaggle](https://www.kaggle.com/datasets/danielgrijalvas/movies)
 
 ### Key Functionalities
