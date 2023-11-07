@@ -22,7 +22,7 @@ Features fetching and analyzing cryptocurrency data from the CoinMarketCap API. 
 - Data Persistence: The code includes commented out sections for saving the data to a CSV file for persistent storage.
 - Data Visualization: Uses Seaborn and Matplotlib libraries for plotting the cryptocurrency trends.
 
-### Usage Instructions
+### Steps to Run the Project
 - API Key: Replace the placeholder API key with your actual CoinMarketCap API key.
 - Running the Script: Execute the script in a Jupyter notebook or other Python environment. Ensure you have a proper internet connection and the required libraries installed.
 - Data Rate Limit Configuration: If using Jupyter Notebook, you may need to adjust the IOPub data rate limit as commented in the script.
@@ -58,12 +58,12 @@ To interactively evaluate and compare the prediction model's performance across 
 # Movie Industry Analysis 🎬
 Analysis of a dataset containing movie industry data. By leveraging powerful libraries like Pandas, NumPy, Seaborn, and Matplotlib, you can explore, visualize, and gain insights into movie trends. Dataset from [Kaggle](https://www.kaggle.com/datasets/danielgrijalvas/movies)
 
-### Key Functionalities
+### Key Features
 - Data Cleaning: The code checks for missing data, ensuring the robustness of the analyses.
 - Data Exploration: It explores data types, which is a necessary step before any data manipulation or analysis.
 - Outlier Detection: It includes functionality to detect outliers in the 'gross' revenue of the movies, which can be crucial for accurate statistical analysis.
 
-### Steps to Run the Project:
+### Steps to Run the Project
 1. Setup Environment: Ensure that Python is installed on your system and that you have installed the required packages (pandas, numpy, seaborn, and matplotlib).
 2. Load Data: Place the movies.csv file in a known directory and adjust the path in the pd.read_csv() function to match where you stored the file.
 3. Explore Data: Execute the script to load and explore the dataset using the commands provided.
@@ -71,7 +71,7 @@ Analysis of a dataset containing movie industry data. By leveraging powerful lib
 5. Analyze Data Types: Use print(df.dtypes) to understand the types of data you are dealing with.
 6. Visualize Data: Use Matplotlib to create a boxplot, which helps in visualizing outliers in the gross revenue data.
 
-### Enhancements:
+### Enhancements
 - Handling Outliers: Implement methods to handle outliers effectively, either by removing them or by using robust statistical methods.
 - Advanced Visualizations: Create more sophisticated visualizations to uncover patterns and relationships in the data.
 - Statistical Analysis: Perform statistical tests to validate hypotheses about the dataset.
