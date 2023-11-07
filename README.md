@@ -5,6 +5,8 @@
 ## Sources
 Inspiration and Tutorial from [Alex the Analyst](https://github.com/AlexTheAnalyst/PortfolioProjects)
 
+## Crypto API Automation 🪙
+
 ## Movie Industry Analysis 🎬
 Analysis of movie industry revenue over recent decades. Dataset from [Kaggle](https://www.kaggle.com/datasets/danielgrijalvas/movies)
 
