@@ -1,6 +1,11 @@
 # Data Analysis Projects
 
-<img src="https://img.shields.io/badge/-Python-blue" /> <img src="https://img.shields.io/badge/-Jupyter-orange" />
+![Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)
+![Pandas](https://img.shields.io/badge/-Pandas-blue?style=flat&logo=pandas)
+![NumPy](https://img.shields.io/badge/-NumPy-lightgrey?style=flat&logo=numpy)
+![SciPy](https://img.shields.io/badge/-SciPy-blue?style=flat)
+![Matplotlib](https://img.shields.io/badge/-Matplotlib-black?style=flat&logo=matplotlib)
+![Seaborn](https://img.shields.io/badge/-Seaborn-brightgreen?style=flat)
 
 ## Sources
 Inspiration and Tutorial from [Alex the Analyst](https://github.com/AlexTheAnalyst/PortfolioProjects)
