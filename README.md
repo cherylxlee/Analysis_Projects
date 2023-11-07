@@ -6,9 +6,45 @@
 Inspiration and Tutorial from [Alex the Analyst](https://github.com/AlexTheAnalyst/PortfolioProjects)
 
 ## Crypto API Automation Analysis 📈
-![Interactive Analysis1](demo/cv1.gif) 
+This program features fetching and analyzing cryptocurrency data from the CoinMarketCap API. It is designed to be run periodically to collect the latest cryptocurrency listings and analyze their price trends over time.
 
-![Interactive Analysis2](demo/cv2.gif)  
+### Key Features:
+- API Interaction: It uses the requests library to interact with the CoinMarketCap Pro API, handling potential connection errors gracefully.
+- Data Normalization: Converts the received JSON data into a flattened pandas DataFrame for easier manipulation.
+- Data Frame Manipulation: Adjusts display settings to show all DataFrame rows and columns.
+- Timestamping: Appends the current timestamp to the DataFrame entries to keep track of data retrieval time.
+- Iteration for Data Collection: Implements a loop that calls the api_runner() function 333 times, with a 1-minute pause between calls, to continuously collect data.
+- Data Persistence: The code includes commented out sections for saving the data to a CSV file for persistent storage.
+- Data Visualization: Uses Seaborn and Matplotlib libraries for plotting the cryptocurrency trends.
+
+### Usage Instructions:
+- API Key: Replace the placeholder API key with your actual CoinMarketCap API key.
+- Running the Script: Execute the script in a Jupyter notebook or other Python environment. Ensure you have a proper internet connection and the required libraries installed.
+- Data Rate Limit Configuration: If using Jupyter Notebook, you may need to adjust the IOPub data rate limit as commented in the script.
+- Data Analysis: After collecting the data, the script processes and visualizes it to identify trends. The visualization will display the price changes of cryptocurrencies like Bitcoin over time.
+
+### Dependencies:
+- `requests`for API calls
+- `pandas` for data manipulation
+- `scikit-learn` for linear regression
+- `seaborn`, `matplotlib`, `plotly` for visualization
+
+![Interactive Analysis](demo/c1.png) 
+This multi-line chart compares the performance of various cryptocurrencies over different time intervals (1h, 24h, 7d, 30d, 60d, 90d). Each line represents a different cryptocurrency, with distinct colors for easier comparison. This chart is useful for visualizing which cryptocurrencies are more volatile or stable across different timescales.
+#### Usage:
+To analyze market trends, identify which cryptocurrencies are the most volatile, and observe the general market behavior over time. This can be particularly useful for investors and traders for making informed decisions.
+
+### Interactive Detailed Cryptocurrency Price Movement
+![Interactive Analysis](demo/cv1.gif) 
+This interactive line chart allows users to delve into the minute-by-minute price changes of their cryptocurrency of choice on November 6, 2023. Through a user-friendly interface, one can select different cryptocurrencies to analyze their price movements within the detailed timeframe. This graph not only displays the granular price data but also responds to user input, updating the display according to the chosen cryptocurrency ticker.
+#### Usage:
+For conducting an in-depth micro-analysis of selected cryptocurrency behavior, useful for developing or testing high-frequency trading algorithms. It's also valuable for researchers focused on the market microstructure of various digital assets.
+
+### Interactive Cryptocurrency Price Prediction
+![Regression](demo/cv2.gif)  
+This interactive chart offers a dynamic comparison between the actual and predicted prices of a user-selected cryptocurrency over a specified timeframe. Users can choose different cryptocurrency tickers from a dropdown menu to view the corresponding data. The actual prices are plotted as black dots, while the predicted trend is shown in blue. The prediction model's trendline adjusts according to the selected cryptocurrency, showcasing its ability to adapt to different market data.
+#### Usage:
+To interactively evaluate and compare the prediction model's performance across various cryptocurrencies, refining the model's accuracy and making bespoke predictions for the chosen digital asset.
 
 ## Movie Industry Analysis 🎬
 Analysis of movie industry revenue over recent decades. Dataset from [Kaggle](https://www.kaggle.com/datasets/danielgrijalvas/movies)
