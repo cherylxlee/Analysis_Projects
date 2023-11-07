@@ -36,18 +36,21 @@ Features fetching and analyzing cryptocurrency data from the CoinMarketCap API. 
 
 ### Analysis
 ![Interactive Analysis](demo/c1.png) 
+
 This multi-line chart compares the performance of various cryptocurrencies over different time intervals (1h, 24h, 7d, 30d, 60d, 90d). Each line represents a different cryptocurrency, with distinct colors for easier comparison. This chart is useful for visualizing which cryptocurrencies are more volatile or stable across different timescales.
 #### Usage:
 To analyze market trends, identify which cryptocurrencies are the most volatile, and observe the general market behavior over time. This can be particularly useful for investors and traders for making informed decisions.
 
 ### Interactive Detailed Cryptocurrency Price Movement
 ![Interactive Analysis](demo/cv1.gif) 
+
 This interactive line chart allows users to delve into the minute-by-minute price changes of their cryptocurrency of choice on November 6, 2023. Through a user-friendly interface, one can select different cryptocurrencies to analyze their price movements within the detailed timeframe. This graph not only displays the granular price data but also responds to user input, updating the display according to the chosen cryptocurrency ticker.
 #### Usage:
 For conducting an in-depth micro-analysis of selected cryptocurrency behavior, useful for developing or testing high-frequency trading algorithms. It's also valuable for researchers focused on the market microstructure of various digital assets.
 
 ### Interactive Cryptocurrency Price Prediction
 ![Regression](demo/cv2.gif)  
+
 This interactive chart offers a dynamic comparison between the actual and predicted prices of a user-selected cryptocurrency over a specified timeframe. Users can choose different cryptocurrency tickers from a dropdown menu to view the corresponding data. The actual prices are plotted as black dots, while the predicted trend is shown in blue. The prediction model's trendline adjusts according to the selected cryptocurrency, showcasing its ability to adapt to different market data.
 #### Usage:
 To interactively evaluate and compare the prediction model's performance across various cryptocurrencies, refining the model's accuracy and making bespoke predictions for the chosen digital asset.
