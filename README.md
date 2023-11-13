@@ -34,7 +34,7 @@ Features fetching and analyzing cryptocurrency data from the CoinMarketCap API. 
 - `scikit-learn` for linear regression
 - `seaborn`, `matplotlib`, `plotly` for visualization
 
-### Analysis
+### Performance Over Time Intervals Analysis
 ![Interactive Analysis](demo/c1.png) 
 
 This multi-line chart compares the performance of various cryptocurrencies over different time intervals (1h, 24h, 7d, 30d, 60d, 90d). Each line represents a different cryptocurrency, with distinct colors for easier comparison. This chart is useful for visualizing which cryptocurrencies are more volatile or stable across different timescales.
