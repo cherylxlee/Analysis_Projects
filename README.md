@@ -14,7 +14,7 @@ Inspiration and Tutorial from [Alex the Analyst](https://github.com/AlexTheAnaly
 Features fetching and analyzing cryptocurrency data from the CoinMarketCap API. Designed to be run periodically to collect the latest cryptocurrency listings and analyze their price trends over time.
 
 ### Key Features
-- API Interaction: It uses the requests library to interact with the CoinMarketCap Pro API, handling potential connection errors gracefully.
+- API Interaction: using requests library to interact with the CoinMarketCap API, handling potential connection errors gracefully.
 - Data Normalization: Converts the received JSON data into a flattened pandas DataFrame for easier manipulation.
 - Data Frame Manipulation: Adjusts display settings to show all DataFrame rows and columns.
 - Timestamping: Appends the current timestamp to the DataFrame entries to keep track of data retrieval time.
